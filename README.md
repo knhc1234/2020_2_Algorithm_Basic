@@ -10,12 +10,11 @@ HW#2
 
 1) 기본 삽입(B_tree_Insertion 함수) 구현
 
-2) 특정 레코드의 삽입, 탐색, 삭제, 순차출력에 대한 명령 구현
-   - Command? r: 해당 이름이 발견된 위치(레벨, 레코드 내의 위치) 출력
-   - Command? d: 해당 이름을 제거한 다음 성공 여부를 출력(이 과정에서 발생한 redistribution의 총 수, merging의 총 수도 출력)
-   - Command? sp: B-tree 안의 모든 레코드의 이름 순으로 SeqData.txt파일에 출력
-   - Command? i: 주어진 이름을 가지는 레코드를 만들어 b-tree에 삽입. 삽입과정에서 발생한 split의 총 수를 출력
-   - Command? exit: 프로그램 종료
-  
-   - 
+HW#3
+
+- Hash table구현
+
+1) uns.txt 화일 에서 이름을 하나씩을 읽어서 해시테이블에 삽입한다. 이름의 중간에 blank 가 들어 있을 수 있으므로 fgets 를 이용하여 화일에서 이름을 읽어야 한다. 이 이름을 레코드의 name 필드에 넣는다 (그리고 레코드의 monincome 필드도 랜덤 넘버로 채운다). 그리고 이 레코드를 해시테이블에 삽입한다. Home address 를 구하기 위해 앞에서 설명한 해시함수 hash 를 이용한다. 이러한 동작을 수행하기 위해 naive.c파일을 구현한다.
+
+   
 
